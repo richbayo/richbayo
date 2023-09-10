@@ -1,0 +1,30 @@
+/* your styles go here */
+
+.responsibities-list {
+    color: #555;
+}
+
+.fig-box {
+    display: flex;
+}
+
+.left-img img {
+    width: 70%;
+}
+
+.right-img img {
+    width: 70%;
+}
+
+.video-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vid-pad {
+    padding: 2px 15px;
+}
+
+footer.main-footer p {
+    color: #fff;
+}
