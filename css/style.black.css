@@ -283,8 +283,8 @@ nav.navbar a.nav-link:hover {
     transition: all 0.3s;
 }
 
-.main-icon p.social a.linkedin {
-    background-color: #2867B2;
+/* .main-icon p.social a.linkedin:hover{
+   transform: scale(1.0);
 }
 
 .main-icon p.social a.github {
@@ -295,9 +295,9 @@ nav.navbar a.nav-link:hover {
     background-color: #FFF;
 }
 
-.main-icon p.social a.twitter {
-    background-color: #1DA1F2;
-}
+.main-icon p.social a.twitter:hover {
+    transform: scale(1.0);
+} */
 
 .main-icon p.social a.facebook {
     background-color: #4460ae;
@@ -722,9 +722,9 @@ footer.main-footer p.social a {
     transition: all 0.3s;
 }
 
-footer.main-footer p.social a.linkedin {
+/* footer.main-footer p.social a.linkedin {
     background-color: #2867B2;
-}
+} */
 
 footer.main-footer p.social a.github {
     background-color: #171515;
@@ -2616,3 +2616,69 @@ code {
         margin-left: 15px;
     }
 }
+
+
+/* slick slider seeting */
+.netzena-pro{
+width: 380px;
+height: 450px;
+
+border-radius: 20px;
+
+}
+.project-netzena{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -20px;
+ }
+
+.slick-dotted.slick-slider{
+    overflow: hidden;
+   
+}
+.slick-slide{
+    margin: 0px 18px;
+}
+.project-box{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-right: 20px;
+  
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 90vw;
+   
+    
+ 
+
+  
+}
+
+.slick-prev{
+  
+    position: absolute !important;
+    left: 0 !important;
+    width: 50px !important;
+    z-index: 999 !important;
+}
+
+.slick-next{
+  
+    position: absolute !important;
+    right: 20px !important;
+    width: 50px !important;
+    z-index: 999 !important;
+}
+.slick-prev:before{
+font-size: 30px !important;
+
+}
+
+.slick-next:before{
+    font-size: 30px !important;
+    
+    }
