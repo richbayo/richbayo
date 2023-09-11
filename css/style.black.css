@@ -226,7 +226,7 @@ nav.navbar a.nav-link:hover {
 
 .about-section .progress-title {
     font-weight: 300;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 0.1em;
 }
 
