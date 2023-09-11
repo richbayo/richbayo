@@ -176,6 +176,7 @@ nav.navbar a.nav-link:hover {
 }
 
 @media (max-width: 1199.98px) {
+
     nav.navbar a.nav-link.active,
     nav.navbar a.nav-link:hover {
         color: var(--theme_color);
@@ -2611,6 +2612,7 @@ code {
         margin-right: -15px;
         margin-left: -15px;
     }
+
     .card-deck .card {
         margin-right: 15px;
         margin-left: 15px;
@@ -2619,37 +2621,38 @@ code {
 
 
 /* slick slider seeting */
-.netzena-pro{
-width: 380px;
-height: 450px;
+.netzena-pro {
+    width: 380px;
+    height: 450px;
 
-border-radius: 20px;
+    border-radius: 20px;
 
 }
 
 
-.project-netzena{
-  
+.project-netzena {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     margin-left: -20px;
- }
+}
 
 /* GRiDLINE CSS */
 
 
-table{
+table {
     background-color: #222222;
     padding: 20px;
     border-collapse: separate;
 }
-table tr td img{
+
+table tr td img {
     margin: 10px 20px;
 }
 
-#project-gretline{
+#project-gretline {
     padding: 40px 10px;
     background-color: #222;
     display: flex;
@@ -2658,49 +2661,51 @@ table tr td img{
     gap: 20px;
 }
 
-.slick-dotted.slick-slider{
+.slick-dotted.slick-slider {
     overflow: hidden;
-   
+
 }
-.slick-slide{
+
+.slick-slide {
     margin: 0px 18px;
 }
-.project-box{
+
+.project-box {
     background-color: #fff;
     padding-top: 20px;
     padding-right: 20px;
-  
+
     /* position: absolute;
     top: 0;
     left: 0; */
     width: 90vw;
 
-  
+
 }
 
 
-.slick-prev{
-  
+.slick-prev {
+
     position: absolute !important;
     left: 0 !important;
     width: 50px !important;
     z-index: 999 !important;
 }
 
-.slick-next{
-  
+.slick-next {
+
     position: absolute !important;
     right: 20px !important;
     width: 50px !important;
     z-index: 999 !important;
 }
-.slick-prev:before{
-font-size: 30px !important;
+
+.slick-prev:before {
+    font-size: 30px !important;
 
 }
 
-.slick-next:before{
+.slick-next:before {
     font-size: 30px !important;
-    
-    }
 
+}
