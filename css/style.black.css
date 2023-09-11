@@ -2632,16 +2632,38 @@ border-radius: 20px;
   
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-left: -20px;
  }
 
- .project-gretline{
+/* GRiDLINE CSS */
+#activity-one{
+    width: 20%;
+  height:500px;
+    background-image: url("/img/projects/Gretline/activity-01.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+table{
+    background-color: #222222;
+    padding: 20px;
+    border-collapse: separate;
+}
+table tr td img{
+    margin: 10px 20px;
+}
+
+#project-gretline{
+    padding: 40px 10px;
+    background-color: #222;
     display: flex;
-    justify-content: space-around;
-  
- }
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
 
 .slick-dotted.slick-slider{
     overflow: hidden;
