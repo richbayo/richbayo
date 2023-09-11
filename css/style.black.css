@@ -2638,15 +2638,8 @@ border-radius: 20px;
  }
 
 /* GRiDLINE CSS */
-#activity-one{
-    width: 20%;
-  height:500px;
-    background-image: url("/img/projects/Gretline/activity-01.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
-}
+
 table{
     background-color: #222222;
     padding: 20px;
@@ -2710,3 +2703,4 @@ font-size: 30px !important;
     font-size: 30px !important;
     
     }
+
