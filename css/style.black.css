@@ -2626,6 +2626,8 @@ height: 450px;
 border-radius: 20px;
 
 }
+
+
 .project-netzena{
   
     display: flex;
@@ -2633,6 +2635,12 @@ border-radius: 20px;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: -20px;
+ }
+
+ .project-gretline{
+    display: flex;
+    justify-content: space-around;
+  
  }
 
 .slick-dotted.slick-slider{
@@ -2651,12 +2659,10 @@ border-radius: 20px;
     top: 0;
     left: 0; */
     width: 90vw;
-   
-    
- 
 
   
 }
+
 
 .slick-prev{
   
