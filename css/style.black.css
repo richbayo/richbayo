@@ -729,9 +729,9 @@ footer.main-footer p.social a {
     background-color: #2867B2;
 } */
 
-footer.main-footer p.social a.github {
+/* footer.main-footer p.social a.github {
     background-color: #171515;
-}
+} */
 
 footer.main-footer p.social a.google-scholar {
     background-color: #FFF;
@@ -2710,4 +2710,15 @@ table tr td img {
 .slick-next:before {
     font-size: 30px !important;
 
+}
+
+
+/* FOoter Box CSS */
+@media (max-width:760px) {
+    #footer-box{
+       /* display: flex;
+       justify-content: center;
+       flex-wrap: nowrap;
+        background-color:#218838; */
+    }
 }
