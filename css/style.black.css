@@ -721,6 +721,8 @@ footer.main-footer p.social a {
     text-align: center;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    margin-left: -11px;
+    margin-right: 32px;
 }
 
 /* footer.main-footer p.social a.linkedin {
