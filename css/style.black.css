@@ -721,8 +721,8 @@ footer.main-footer p.social a {
     text-align: center;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    margin-left: -11px;
-    margin-right: 32px;
+    margin-left: -8px;
+    margin-right: 40px;
 }
 
 /* footer.main-footer p.social a.linkedin {
@@ -870,9 +870,9 @@ STYLE SWITCHER FOR DEMO
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+   
 }
-
 .navbar-light .navbar-text {
     color: rgba(0, 0, 0, 0.5);
 }
@@ -2712,13 +2712,5 @@ table tr td img {
 
 }
 
-
-/* FOoter Box CSS */
-@media (max-width:760px) {
-    #footer-box{
-       /* display: flex;
-       justify-content: center;
-       flex-wrap: nowrap;
-        background-color:#218838; */
-    }
-}
+/* 
+/*
